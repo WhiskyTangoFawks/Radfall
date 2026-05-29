@@ -1,6 +1,6 @@
 # Radfall
 
-A Fallout 4 survival overhaul. This repository contains the source files and scripts. These are tools to build Radfall on a load order via semi-automated patching, not a ready-to-install mod. Compiled papyrus scripts are available as a release.
+Tools to build a Fallout 4 survival overhaul. This repository contains the source files, plugins, papyrus runtime scripts, and xedit patching scripts. These are tools to build Radfall against a load order, not a ready-to-install mod.
 
 ---
 
@@ -14,7 +14,7 @@ A Fallout 4 survival overhaul. This repository contains the source files and scr
 
 ## Requirements
 
-- **Fallout 4** with the Creation Kit installed
+- **Fallout 4** with the Creation Kit installed (if compiling papyrus scripts)
 - **FO4Edit** (latest release)
 - A working Fallout 4 mod load order to patch against
 
@@ -22,7 +22,7 @@ A Fallout 4 survival overhaul. This repository contains the source files and scr
 
 ## Building
 
-### 1. Compile the Papyrus scripts
+### 1. Compile the Papyrus scripts (or just download the release)
 
 1. Load the plugin and source scripts into the **Creation Kit**.
 2. Compile all scripts. Output the `.pex` files to your mod's `Scripts/` folder.
@@ -47,7 +47,7 @@ If your load order includes mods that conflict with Radfall's changes, you will 
 
 Support is not provided for self-built installations. If something is broken:
 
-- Check that all scripts compiled without errors in the CK log.
+- Check that all scripts compiled without errors in the CK log if you're trying to compile them.
 - Check that the patcher ran cleanly and the output plugin loaded correctly in FO4Edit.
 - Check for conflicts in your load order using FO4Edit.
 
