@@ -1,6 +1,6 @@
 # Radfall
 
-A Fallout 4 survival overhaul. This repository contains the **source files only** — not compiled scripts, not a ready-to-install mod. Compiled papyrus scripts are available as a release.
+A Fallout 4 survival overhaul. This repository contains the source files and scripts. These are tools to build Radfall on a load order via semi-automated patching, not a ready-to-install mod. Compiled papyrus scripts are available as a release.
 
 ---
 
@@ -39,7 +39,7 @@ If you don't want to compile the scripts, download the compiled scripts from the
 
 ### 3. Generate custom patches (if needed)
 
-If your load order includes mods that conflict with or extend Radfall's changes, you will need to generate additional patches manually in FO4Edit. No pre-made patches are provided here — your load order is yours to manage.
+If your load order includes mods that conflict with Radfall's changes, you will need to generate additional patches manually in FO4Edit. No pre-made patches are provided here — your load order is yours to manage.
 
 ---
 
