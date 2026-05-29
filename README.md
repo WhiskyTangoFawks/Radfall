@@ -1,6 +1,6 @@
 # Radfall
 
-A Fallout 4 survival overhaul. This repository contains the **source files only** — not compiled scripts, not a ready-to-install mod.
+A Fallout 4 survival overhaul. This repository contains the **source files only** — not compiled scripts, not a ready-to-install mod. Compiled papyrus scripts are available as a release.
 
 ---
 
@@ -28,6 +28,7 @@ A Fallout 4 survival overhaul. This repository contains the **source files only*
 2. Compile all scripts. Output the `.pex` files to your mod's `Scripts/` folder.
 
 If you're compiling outside the CK, ensure your `Papyrus Compiler` flags file and import paths include the base Fallout 4 source scripts.
+If you don't want to compile the scripts, download the compiled scripts from the github releases.
 
 ### 2. Run the FO4Edit patcher
 
